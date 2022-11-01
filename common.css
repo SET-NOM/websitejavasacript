@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html{
+    font-family: 'malgun gothic' sans-serif;
+    font-size: 16px;
+    color: #6666;
+}
+body{
+    background-color: #fff;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,img{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    display: block;
+}
+a{
+    background: transparent;
+    text-decoration: none;
+    color: #6666;
+}
+#container{
+    width: 1000px;
+    height: 650px;
+    /* overflow: hidden; */
+}

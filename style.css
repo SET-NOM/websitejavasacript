@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+#header {
+    width:150px;
+    height: 650px;
+    /* background:#ccc; */
+    float: left;
+}
+#header div.logo {
+    width: 150px;
+    height: 50px;
+    /* background: #ccc; */
+    padding: top 4.5px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+#header div.logo a {
+    width: 120px;
+    height: 41px;
+    display: block;
+    margin: 0 auto;
+}
+#header div.logo a img {
+    width:120px;
+}
+#header nav.nav{
+    width: 130px;
+    margin: 0 auto;
+}
+
+#header nav.nav > ul{
+    width: 100%;
+    height: 160px;
+
+}
+#header nav.nav > ul > li{
+    width: 130px;
+    height: 50px;
+    background: #00aeef;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 50;
+}
+#header nav.nav > ul > li:hover{
+    background: #00397d;
+}
+#header nav.nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#header nav.nav > ul > li ul.sub-nav{
+    background: #00397d;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 130px;
+    top: 0;
+    display: none;
+}
+/* #header nav.nav > ul > li:not(:fist-child) ul.sub-nav{
+    display: none;
+} */
+#header nav.nav > ul > li ul.sub-nav li{
+    width: 100%;
+    height: 30px;
+}
+#header nav.nav > ul > li ul.sub-nav li:hover{
+    background: #bef;
+}
+#header nav.nav > ul > li ul.sub-nav li:hover a{
+    color: #333;
+}
+#header nav.nav > ul > li ul.sub-nav li a{
+    width: 100%;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    color: #d2d2d2;
+    font-weight: 600;
+}
+
+#footer{
+    height: 100px;
+    border: 1px solid #ccc;
+    border-top: none;
+    /* background: #333; */
+}
+#footer div.logo{
+    width: 150px;
+    height: 50px;
+    padding-top: 24px;
+    box-sizing: border-box;
+    float: left;
+}
+#footer div.logo a{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#footer div.logo a img{
+    width: 150px;
+}
+#footer div.footer-content{
+    width: 700px;
+    float: right;
+}
+    div.footer-content nav.footer-nav{
+        height: 30px;
+    }
+    div.footer-content nav.footer-nav ul{
+        height: 30px;
+        width: 100%;
+    }
+
+    div.footer-content nav.footer-nav ul li{
+        float: left;
+        height: 30px;
+        width: 130px;
+    }
+    div.footer-content nav.footer-nav ul li a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 30px;
+        font-size: 12.5px;
+        text-align: center;
+    }
+    div.footer-content nav.footer-nav ul li:hover a{
+        color: #000;
+    }
+    div.copyright{
+        height: 70px;
+        
+    }
+    div.copyright address p{
+        font-size: 10px;
+        line-height: 160%;
+        text-align: center;
+
+    }
+    div.copyright > p{
+        font-size: 10px;
+        text-align: center;
+    }
+
+#popup{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+#popup section.popup-contents{
+    background: #fff;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid #00aeef;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -200px;
+    padding: 20px 15px 10px;
+    box-shadow: 1px 1px 5px #00397d;
+}
+#popup section.popup-contents h1{
+    font-size: 18px;
+    height: 30px;
+    border-bottom: 1px solid #00aeef;
+    color: #00aeef;
+    padding: 0 5px;
+}
+#popup section.popup-contents p{
+    font-size: 14.5px;
+    padding: 0 5px;
+    line-height: 160%;
+}
+#popup section.popup-contents p:nth-child(2){
+    color: #00aeef;
+    border-bottom: 1px solid #00aeef;
+    font-size: 16px;
+    font-weight: bold;
+}
+#popup section.popup-contents button.btn{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: none;
+    border: 3px solid #00aeef;
+    padding: 10px 20px;
+    color: #00397d;
+    font-weight: bold;
+    cursor: pointer;
+}
